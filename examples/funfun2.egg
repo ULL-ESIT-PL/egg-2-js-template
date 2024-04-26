@@ -1,0 +1,5 @@
+do(
+  def(f, fun(x, y, x(y))),
+  def(g, fun(z, +(z,1))),
+  print(f(g,4)) # 5
+)

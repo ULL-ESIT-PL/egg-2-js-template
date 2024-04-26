@@ -1,0 +1,4 @@
+do(
+  def(f, fun(x, fun(y, +(x,y)))),
+  print(f(2)(4)) # 6
+)

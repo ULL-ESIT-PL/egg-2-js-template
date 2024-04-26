@@ -1,0 +1,151 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "name": "print"
+  },
+  "args": [
+    {
+      "type": "value",
+      "value": "\"computed value = \""
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "do"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "def"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "x"
+            },
+            {
+              "type": "value",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "def"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "inc"
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "name": "fun"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "name": "w"
+                },
+                {
+                  "type": "apply",
+                  "operator": {
+                    "type": "word",
+                    "name": "do"
+                  },
+                  "args": [
+                    {
+                      "type": "apply",
+                      "operator": {
+                        "type": "word",
+                        "name": "def"
+                      },
+                      "args": [
+                        {
+                          "type": "word",
+                          "name": "y"
+                        },
+                        {
+                          "type": "value",
+                          "value": 999
+                        }
+                      ]
+                    },
+                    {
+                      "type": "apply",
+                      "operator": {
+                        "type": "word",
+                        "name": "+"
+                      },
+                      "args": [
+                        {
+                          "type": "word",
+                          "name": "w"
+                        },
+                        {
+                          "type": "value",
+                          "value": 1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "def"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "z"
+            },
+            {
+              "type": "value",
+              "value": -1
+            }
+          ]
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "set"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "x"
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "name": "inc"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "name": "x"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

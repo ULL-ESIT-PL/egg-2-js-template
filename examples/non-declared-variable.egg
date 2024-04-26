@@ -1,0 +1,6 @@
+do(
+  #def(x,4),
+  def(inc, fun(x, +(x,1))),
+  set(x, /*inc(x)*/ 4),
+  print("x = ",x)
+)

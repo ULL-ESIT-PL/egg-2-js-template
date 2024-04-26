@@ -1,0 +1,56 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "name": "print"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "+"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": 3
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "*"
+          },
+          "args": [
+            {
+              "type": "value",
+              "value": 4
+            },
+            {
+              "type": "value",
+              "value": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "-"
+      },
+      "args": [
+        {
+          "type": "value",
+          "value": 9
+        },
+        {
+          "type": "value",
+          "value": 3
+        }
+      ]
+    }
+  ]
+}

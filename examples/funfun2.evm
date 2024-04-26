@@ -1,0 +1,121 @@
+{
+  "type": "apply",
+  "operator": {
+    "type": "word",
+    "name": "do"
+  },
+  "args": [
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "name": "f"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "x"
+            },
+            {
+              "type": "word",
+              "name": "y"
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "name": "x"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "name": "y"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "def"
+      },
+      "args": [
+        {
+          "type": "word",
+          "name": "g"
+        },
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "fun"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "z"
+            },
+            {
+              "type": "apply",
+              "operator": {
+                "type": "word",
+                "name": "+"
+              },
+              "args": [
+                {
+                  "type": "word",
+                  "name": "z"
+                },
+                {
+                  "type": "value",
+                  "value": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "apply",
+      "operator": {
+        "type": "word",
+        "name": "print"
+      },
+      "args": [
+        {
+          "type": "apply",
+          "operator": {
+            "type": "word",
+            "name": "f"
+          },
+          "args": [
+            {
+              "type": "word",
+              "name": "g"
+            },
+            {
+              "type": "value",
+              "value": 4
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

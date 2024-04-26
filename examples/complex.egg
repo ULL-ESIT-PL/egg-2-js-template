@@ -1,0 +1,14 @@
+print("computed value = ", 
+  do(
+    def(x,4),
+    def(inc, 
+      fun(w, do(
+          def(y, 999),
+          +(w,1)
+        ) # do
+      ) # fun
+    ),# def inc
+    def(z,-1),
+    set(x, inc(x))
+  )
+)
